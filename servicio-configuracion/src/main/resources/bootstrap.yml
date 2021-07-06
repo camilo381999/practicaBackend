@@ -1,0 +1,23 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/camilo381999/practicaBackend.git
+          #default-label: main
+          searchPaths: configuracion-servicios
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
