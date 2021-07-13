@@ -11302,3 +11302,33 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 15:01:34.361
 !MESSAGE executing callback sts4.classpath.adtaAjIq SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:04:37.624
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:04:37.637
+!MESSAGE classpath=184 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:04:37.647
+!MESSAGE buffering callback sts4.classpath.adtaAjIq servicio-usuario false 184
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:04:37.647
+!MESSAGE executing callback sts4.classpath.adtaAjIq 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:04:37.756
+!MESSAGE executing callback sts4.classpath.adtaAjIq SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:25:58.401
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:25:58.414
+!MESSAGE classpath=189 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:25:58.426
+!MESSAGE buffering callback sts4.classpath.adtaAjIq servicio-usuario false 189
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:25:58.427
+!MESSAGE executing callback sts4.classpath.adtaAjIq 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-12 20:25:58.486
+!MESSAGE executing callback sts4.classpath.adtaAjIq SUCCESS [done]
