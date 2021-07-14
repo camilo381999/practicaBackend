@@ -17,10 +17,10 @@ spring:
           enabled: true
       routes:
         - id: servicio-foto
-          uri: lb://servicio-foto
+          uri: http://localhost:8092
           predicates:
             - Path=/foto/**
         - id: servicio-usuario
-          uri: lb://servicio-usuario
+          uri: http://localhost:8091
           predicates:
             - Path=/usuario/**
