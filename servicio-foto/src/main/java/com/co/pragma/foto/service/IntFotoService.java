@@ -11,11 +11,10 @@ public interface IntFotoService {
 
 	public Foto createFoto(Foto foto);
 	
-	public Optional<Foto> findById(Long id);
+	public Optional<Foto> findByIdCliente(Long id);
 
 	public Foto update(Foto foto, Long id);
 
-	public void deleteFotoById(long id);
+	public void deleteFotoById(Long id);
 
-	public Foto updatePartially(Foto foto, long id);
 }

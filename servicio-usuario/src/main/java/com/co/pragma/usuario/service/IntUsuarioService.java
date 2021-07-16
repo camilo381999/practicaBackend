@@ -18,4 +18,6 @@ public interface IntUsuarioService {
 
 	public void deleteUsuario(Long id);
 	
+	public List<Usuario> findByEdadGreaterThanEqual(int edad);
+	
 }

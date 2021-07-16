@@ -10,4 +10,6 @@ public interface IntUsuarioRepository extends JpaRepository<Usuario, Long>{
 	
 	public Usuario findByTipoIdAndIdUsuario(String tipoId, Long idUsuario);
 	
+	public List<Usuario> findByEdadGreaterThanEqual(int edad);
+	
 }

@@ -28,8 +28,8 @@ public class ImplemFotoService implements IntFotoService{
 	}
 
 	@Override
-	public Optional<Foto> findById(Long id) {
-		return intFotoRepository.findById(id);
+	public Optional<Foto> findByIdCliente(Long id) {
+		return intFotoRepository.findByIdCliente(id);
 	}
 
 	@Override
@@ -38,14 +38,8 @@ public class ImplemFotoService implements IntFotoService{
 	}
 
 	@Override
-	public void deleteFotoById(long id) {
-		intFotoRepository.deleteById(id);
-	}
-
-	@Override
-	public Foto updatePartially(Foto foto, long id) {
-		// TODO Auto-generated method stub
-		return null;
+	public void deleteFotoById(Long id) {
+		intFotoRepository.deleteFotoByIdCliente(id);
 	}
 
 }

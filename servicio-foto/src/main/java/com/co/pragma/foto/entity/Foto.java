@@ -12,11 +12,13 @@ import lombok.Data;
 @Data
 public class Foto {
 
-	@Id
-	@Field("id")
+	/*@Id
+	@Field("_id")
 	@JsonIgnore
-	private String id;
+	private String id;*/
 
 	private String foto;
+	
+	private Long idCliente;
 
 }
